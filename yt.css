@@ -1,18 +1,28 @@
-        .t1 {
-          width: 300px;
-          display: block;
-        }
+    .t1 {
+      width: 300px;
+      display: block;
+    }
 
-        .video-title {
-          width: 300px;
+    .t2 {
+      width: 300px;
+      display: block;
+    }    
 
-        }
+    .video-title {
+      width: 280px;
+    }
 
-        .searchbar {
-          padding-top: 1px;
-          padding-bottom: 1px;
-          padding-left: 12px;
-          padding-right: 2px;
-          
-        }
+    .searchbar {
+      padding-top: 1px;
+      padding-bottom: 1px;
+      padding-left: 12px;
+      padding-right: 2px;
+      display: block;
+    }
 
+    .video-preview {
+      display: inline-block;
+      width: 300px;
+      vertical-align: top;
+      margin-right: 15px;
+    }
