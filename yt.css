@@ -6,12 +6,27 @@
     .t2 {
       width: 300px;
       display: block;
-    }    
-
-    .video-title {
-      width: 280px;
     }
 
+    .vr1 {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .cp1 {
+      display: inline-block;
+      border: none;
+      border-radius: 40px;
+      width: 50px;
+    }
+
+    .des1 {
+      display: inline-block;
+      width: 200px;
+      vertical-align: top;
+      margin-top: 0px;
+    }
+    
     .searchbar {
       padding-top: 1px;
       padding-bottom: 1px;
