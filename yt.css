@@ -1,3 +1,9 @@
+    p {
+      font-family: Roboto, Arial;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
     .t1 {
       width: 300px;
       display: block;
@@ -6,18 +12,6 @@
     .t2 {
       width: 300px;
       display: block;
-    }
-
-    .vr1 {
-      display: flex;
-      align-items: flex-start;
-    }
-
-    .cp1 {
-      display: inline-block;
-      border: none;
-      border-radius: 40px;
-      width: 50px;
     }
 
     .des1 {
@@ -40,4 +34,44 @@
       width: 300px;
       vertical-align: top;
       margin-right: 15px;
+    }
+
+    .thumbnail-row {
+      margin-top: 12px;
+    }
+
+    .channel-picture {
+      display: inline-block;
+      width: 50px;
+      vertical-align: top;
+    }
+
+    .pic {
+      width: 75%;
+      margin-top: 0px;
+      border-radius: 100%;
+    }
+
+    .video-info {
+      display: inline-block;
+      width: 228px;
+      font-family: Arial;
+    }
+
+    .video-title {
+      font-weight: 500;
+      font-size: 14px;
+      margin-bottom: 12px;
+      line-height: 18px;
+    }
+
+    .video-author {
+      font-size: 12px;
+      color: gray;
+      margin-bottom: 4px;
+    }
+
+    .video-stats {
+      font-size: 12px;
+      color: gray;
     }
