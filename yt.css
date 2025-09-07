@@ -4,14 +4,8 @@
       margin-bottom: 0;
     }
 
-    .t1 {
-      width: 300px;
-      display: block;
-    }
-
-    .t2 {
-      width: 300px;
-      display: block;
+    .thumbnail {
+      width: 100%;
     }
 
     .des1 {
@@ -29,22 +23,15 @@
       display: block;
     }
 
-    .video-preview {
-      display: inline-block;
-      width: 300px;
-      vertical-align: top;
-      margin-right: 15px;
-    }
-
     .thumbnail-row {
       margin-top: 12px;
+      display: grid;
+      grid-template-columns: 50px 1fr;
     }
 
-    .channel-picture {
-      display: inline-block;
-      width: 50px;
-      vertical-align: top;
-    }
+    /* .channel-picture {
+ 
+    } */
 
     .pic {
       width: 75%;
@@ -53,8 +40,6 @@
     }
 
     .video-info {
-      display: inline-block;
-      width: 228px;
       font-family: Arial;
     }
 
